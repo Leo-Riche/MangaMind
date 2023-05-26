@@ -1,29 +1,21 @@
-.SpadePost {
-    margin: 0px 20px 20px 20px;
-    padding: 10px;
-    border-radius: 20px;
-    background: linear-gradient(180deg, #302a5c, #2e1a5a)
-}
-
-.UserPost {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.ProfilPicturePost {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    transition: all 0.5s;
-}
-
-.ProfilPicturePost:hover {
-    opacity: 50%;
-    transition: all 0.5s;
-}
-
 .Post {
+    display: grid;
+    grid-column: auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.News {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.none {
+    display: none;
+}
+
+.PostContent {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -32,63 +24,12 @@
     flex-direction: column;
 }
 
-.ImagePost {
-    height: 140px;
-    width: 240px;
-    border-radius: 15px;
-    padding-top: 10px;
-}
-
-.UnderPost {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 50px;
-    padding: 0px 0px 0px 0px;
-}
-
-.Stats {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-}
-
-.ProfilPictureComments {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    transition: all 0.5s;
-}
-
-.ProfilPictureComments:hover {
-    opacity: 50%;
-    transition: all 0.5s;
-}
-
-.CommentContainer {
-    margin-left: 16px;
-}
-
-.Comment {
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.UserComment {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 10px;
-}
-
 .ButtonNewPost {
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    z-index: 5;
+    z-index: 4;
     bottom: 8px;
     right: 8px;
     width: 60px;
@@ -116,19 +57,22 @@
 }
 
 .NewPost {
-    margin: 20px;
-    padding: 30px 20px 20px 20px;
-    background-color: #0f1536;
-    border-radius: 20px;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-
+    
     pointer-events: none;
     opacity: 0;
-
+    
     transition: opacity 0.2s ease-in-out;
-    z-index: 6;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
 }
 
 .NewPost.visible {
@@ -136,13 +80,20 @@
     opacity: 1;
 }
 
-/* .AddMessage {
-    height: 25vh;
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #16193e;
-    border-radius: 10px;
-} */
+.CloseButton {
+    align-self: flex-end;
+}
+
+.NewPost > form {
+    background-color: #0f1536;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+}
 
 .AddNewPost {
     display: flex;
@@ -152,7 +103,6 @@
     height: 30vh;
     resize: none;
     padding: 20px;
-    margin-bottom: 20px;
     background-color: #16193e;
     color: #3f459b;
     border-style: none;
@@ -164,14 +114,20 @@
 }
 
 .NewPost h3 {
-    padding-left: 10px;
-    padding-bottom: 20px;
     color: #5E63CB;
 }
 
+.NewPost > form > input[type="file"] {
+    color: white;
+}
+
 .AddPost {
-    padding: 20px 17vw 20px 17vw;
+    width: 100%;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10% 20%;
     background-color: #0c0d53;
     color: #8489F8;
     font-size: 18px;
