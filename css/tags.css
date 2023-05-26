@@ -1,0 +1,142 @@
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+}
+
+.tag1 {
+    padding: 4px 8px 4px 8px;
+    background-color: #982424;
+    color: #e1e1e1;
+    border-radius: 20px;
+}
+
+.tag2 {
+    padding: 4px 8px 4px 8px;
+    background-color: #9F3274;
+    color: #e1e1e1;
+    border-radius: 20px;
+}
+
+.tag3 {
+    padding: 4px 8px 4px 8px;
+    background-color: #55A00A;
+    color: #e1e1e1;
+    border-radius: 20px;
+}
+
+.tag4 {
+    padding: 4px 8px 4px 8px;
+    background-color: #10B094;
+    color: #e1e1e1;
+    border-radius: 20px;
+}
+
+.tag5 {
+    padding: 4px 8px 4px 8px;
+    background-color: #1062AE;
+    color: #e1e1e1;
+    border-radius: 20px;
+}
+
+.tag6 {
+    padding: 4px 8px 4px 8px;
+    background-color: #6F13CB;
+    color: #e1e1e1;
+    border-radius: 20px;
+}
+
+.tag7 {
+    padding: 4px 8px 4px 8px;
+    background-color: #8B46CF;
+    color: #e1e1e1;
+    border-radius: 20px;
+}
+
+.tag8 {
+    padding: 4px 8px 4px 8px;
+    background-color: #BB4C52;
+    color: #e1e1e1;
+    border-radius: 20px;
+}
+
+.tag9 {
+    padding: 4px 8px 4px 8px;
+    background-color: #AA7333;
+    color: #e1e1e1;
+    border-radius: 20px;
+}
+
+.tag10 {
+    padding: 4px 8px 4px 8px;
+    background-color: #D1A300;
+    color: #e1e1e1;
+    border-radius: 20px;
+}
+
+.Tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.TagColumn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30vw;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.TagColumn h5 {
+    margin: 10px 30px 10px 30px;
+    padding: 4px 10px 4px 10px;
+    background-color: #16193e;
+    border-radius: 8px;
+}
+
+.ShonenTag {
+    color: #982424;
+}
+
+.ShojoTag {
+    color: #9F3274;
+}
+
+.NewgenTag {
+    color: #1062AE;
+}
+
+.MangaTag {
+    color: #8B46CF;
+}
+
+.NewsTag {
+    color: #AA7333;
+}
+
+.SeinenTag {
+    color: #55A00A
+}
+
+.JoseiTag {
+    color: #10B094;
+}
+
+.OldgenTag{
+    color: #6F13CB;
+}
+
+.AnimeTag {
+    color: #BB4C52;
+}
+
+.ElseTag{
+    color: #D1A300;
+}

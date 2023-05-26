@@ -1,0 +1,181 @@
+.SpadePost {
+    margin: 0px 20px 20px 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #302a5c, #2e1a5a)
+}
+
+.UserPost {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ProfilPicturePost {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    transition: all 0.5s;
+}
+
+.ProfilPicturePost:hover {
+    opacity: 50%;
+    transition: all 0.5s;
+}
+
+.Post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 30px 0px 30px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.ImagePost {
+    height: 140px;
+    width: 240px;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
+.UnderPost {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    padding: 0px 0px 0px 0px;
+}
+
+.Stats {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.ProfilPictureComments {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.ProfilPictureComments:hover {
+    opacity: 50%;
+    transition: all 0.5s;
+}
+
+.CommentContainer {
+    margin-left: 16px;
+}
+
+.Comment {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.UserComment {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.ButtonNewPost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 5;
+    bottom: 8px;
+    right: 8px;
+    width: 60px;
+    height: 60px;
+    background-color: #1A0C31;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+.ButtonNewPost:hover {
+    width: 100px;
+    height: 100px;
+    transition: all 1s;
+}
+
+.ButtonNewPost img {
+    width: 50px;
+    color: #2C2E57;
+    transition: all 1s;
+}
+
+.ButtonNewPost img:hover {
+    width: 80px;
+    transition: all 1s;
+}
+
+.NewPost {
+    margin: 20px;
+    padding: 30px 20px 20px 20px;
+    background-color: #0f1536;
+    border-radius: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    pointer-events: none;
+    opacity: 0;
+
+    transition: opacity 0.2s ease-in-out;
+    z-index: 6;
+}
+
+.NewPost.visible {
+    pointer-events: all;
+    opacity: 1;
+}
+
+/* .AddMessage {
+    height: 25vh;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #16193e;
+    border-radius: 10px;
+} */
+
+.AddNewPost {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70vw;
+    height: 30vh;
+    resize: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #16193e;
+    color: #3f459b;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.Message {
+    color: #282c61;
+}
+
+.NewPost h3 {
+    padding-left: 10px;
+    padding-bottom: 20px;
+    color: #5E63CB;
+}
+
+.AddPost {
+    padding: 20px 17vw 20px 17vw;
+    justify-content: center;
+    background-color: #0c0d53;
+    color: #8489F8;
+    font-size: 18px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 15px;
+}

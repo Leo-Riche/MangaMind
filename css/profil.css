@@ -1,0 +1,56 @@
+.UserProfilArea {
+    display: flex;
+    gap: 10px;
+    margin: 50px 30px 50px 30px;
+}
+
+.UserProfil {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.ProfilPseudo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.HorizontalBar {
+    width: 100vw;
+    height: 2px;
+    background-color: #120D22;
+}
+
+.ProfilNav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #221948;
+}
+
+.NavCategory {
+    padding: 20px;
+}
+
+.BarCategory {
+    width: 1px;
+    height: 62px;
+    background-color: #120D22;
+}
+
+.ProfilPosts {
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    background-color: #30245c;
+    border-radius: 10px;
+}
+
+.PostArea {
+    width: 100vw;
+    height: 57vh;
+    overflow-y: auto;
+}

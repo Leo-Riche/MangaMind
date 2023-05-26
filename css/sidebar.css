@@ -1,0 +1,48 @@
+.MenuBurger {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #1A0C31;
+}
+
+.Bars {
+    margin-top: 15px;
+}
+
+.bar {
+    padding: 3px 20px 3px 20px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    background-color: #3f459b;
+}
+
+.Sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    padding: 50px 20px 50px 20px;
+    border-radius: 0px 25px 25px 0px;
+    background: linear-gradient(90deg, #20235a 25%, #260A51 100%);
+    position: fixed;
+    left: 0;
+    transition: 0.5s;
+}
+
+.Slide {
+    left: -70vw;
+}
+
+.ElementSidebar {
+    width: 60vw;
+    height: 10vh;
+}
+
+.ElementSidebar:hover {
+    color: #A3AFF5;
+}
+
+.LogoutSidebar {
+    color: #14153B;
+}
