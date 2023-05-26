@@ -11,4 +11,4 @@ try {
     die("Erreur :" . $ex->getMessage());
 }
 
-?>
+session_start();

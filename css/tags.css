@@ -1,10 +1,68 @@
 .tags {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
     gap: 16px;
-    padding: 10px;
+    padding: 12px;
     margin-bottom: 10px;
     overflow-y: scroll;
+}
+
+.NewPost > form > .tags {
+    width: 100%;
+    margin: 0;
+}
+
+.Circles {
+    padding: 25px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+
+.CircleTag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CircleShonen {
+    background-color: #982424;
+}
+
+.CircleShojo {
+    background-color: #9F3274;
+}
+
+.CircleSeinen {
+    background-color: #55A00A;
+}
+
+.CircleJosei {
+    background-color: #10B094;
+}
+
+.CircleNewgen {
+    background-color: #1062AE;
+}
+
+.CircleOldgen {
+    background-color: #6F13CB;
+}
+
+.CircleAnime {
+    background-color: #8B46CF;
+}
+
+.CircleManga {
+    background-color: #BB4C52;
+}
+
+.CircleNews {
+    background-color: #AA7333;
+}
+
+.CircleElse {
+    background-color: #D1A300;
 }
 
 .tag1 {
@@ -77,48 +135,12 @@
     border-radius: 20px;
 }
 
-.Tags {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 10px;
-}
-
-.TagColumn {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 30vw;
-    gap: 10px;
-    margin-bottom: 10px;
-}
-
-.TagColumn h5 {
-    margin: 10px 30px 10px 30px;
-    padding: 4px 10px 4px 10px;
-    background-color: #16193e;
-    border-radius: 8px;
-}
-
 .ShonenTag {
     color: #982424;
 }
 
 .ShojoTag {
     color: #9F3274;
-}
-
-.NewgenTag {
-    color: #1062AE;
-}
-
-.MangaTag {
-    color: #8B46CF;
-}
-
-.NewsTag {
-    color: #AA7333;
 }
 
 .SeinenTag {
@@ -129,12 +151,24 @@
     color: #10B094;
 }
 
+.NewgenTag {
+    color: #1062AE;
+}
+
 .OldgenTag{
     color: #6F13CB;
 }
 
 .AnimeTag {
+    color: #8B46CF;
+}
+
+.MangaTag {
     color: #BB4C52;
+}
+
+.NewsTag {
+    color: #AA7333;
 }
 
 .ElseTag{

@@ -1,0 +1,45 @@
+.signUp {
+    display: none;
+}
+
+.signUpBack {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba( 0, 0, 0, .25 )
+}
+
+.signUpContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #16193e;
+    transform: translate(-50%, -50%)
+}
+
+.login {
+    font-size: 24px;
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #3f459b;
+}
+
+.login:hover {
+    color: #B3B5E5;
+}
+
+#SignUpClose {
+    font-size: 24px;
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #3f459b;
+}
+
+#SignUpClose:hover {
+    color: #B3B5E5;
+}

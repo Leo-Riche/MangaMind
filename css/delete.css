@@ -1,0 +1,54 @@
+.DeleteButton {
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #0c0d53;
+    background-color: #0f1536;
+}
+
+.deleteButtonConfirm {
+    background-color: rgba(125, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.deleteButton {
+    background-color: #490505;
+    font-size: 18px;
+    color: red;
+}
+
+.delete{
+    padding: 30px 20px 20px 20px;
+    background-color: #0f1536;
+    border-radius: 20px;
+    position: fixed;
+
+    display: none;
+
+    transition: opacity 0.2s ease-in-out;
+    z-index: 6;
+}
+
+.visible {
+    display: flex;
+}
+
+.confirmDelete {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(125, 0, 0, 0.5);
+    color: red;
+}
+
+.cancelDelete {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #0c0d53;
+    color: #8489F8;
+}

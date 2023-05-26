@@ -1,7 +1,7 @@
-const menuBurger = document.querySelector(".MenuBurger");
+const menu = document.querySelector(".Menu");
 
 const sidebar = document.querySelector(".Sidebar");
 
-menuBurger.addEventListener("click", () => {
+menu.addEventListener("click", () => {
     sidebar.classList.toggle("Slide");
 });
