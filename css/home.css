@@ -1,5 +1,30 @@
 .HomeArea {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
     width: 100vw;
     height: 77vh;
     overflow-y: auto;
+}
+
+.Search {
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 8px;
+    background-color: #35389B;
+    border-style: none;
+    border-radius: 8px;
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #676be9;
+}
+
+::placeholder {
+    color: #676be9;
 }
